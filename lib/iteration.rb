@@ -22,7 +22,7 @@ def find_greater_pair(src)
 
   maxs = []
   row = []
-  
+
   for i in 0...src.length
     row = src[i]
     maxs = row.max
