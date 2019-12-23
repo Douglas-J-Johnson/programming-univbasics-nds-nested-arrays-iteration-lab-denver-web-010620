@@ -11,12 +11,20 @@ def join_ingredients(src)
   for i in 0...src.lenth
     pizza_love[i] = "I love #{src[i][0]} and #{src[i][1]} on mh pizza"
   end
+
+  return pizza_love
 end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
+
+  maxs = []
+  row = []
+  for i in 0...src.length
+    row = 
+  end
 end
 
 def total_even_pairs(src)
