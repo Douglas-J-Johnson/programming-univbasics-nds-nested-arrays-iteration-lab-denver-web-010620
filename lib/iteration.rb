@@ -9,7 +9,7 @@ def join_ingredients(src)
 
   pizza_love = []
   for i in 0...src.lenth
-    pizza_love[i] = "I love #{src[i][0]} and #{src[i][1]} on mh pizza"
+    pizza_love[i] = "I love #{src[i][0]} and #{src[i][1]} on my pizza"
   end
 
   return pizza_love
@@ -25,7 +25,7 @@ def find_greater_pair(src)
 
   for i in 0...src.length
     row = src[i]
-    maxs = row.max
+    maxs[i] = row.max
   end
 
   return maxs
@@ -44,7 +44,7 @@ def total_even_pairs(src)
 
   for i in 0...src.length
     row = src[i]
-    if (row[0] % 2 == 0 && row[1]%2 == 0)
+    if (row[0] % 2 == 0 && row[1] % 2 == 0)
       total = total + row[0] + row[1]
     end
   end
