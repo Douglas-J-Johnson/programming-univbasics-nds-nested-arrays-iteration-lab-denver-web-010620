@@ -22,9 +22,13 @@ def find_greater_pair(src)
 
   maxs = []
   row = []
+  
   for i in 0...src.length
-    row =
+    row = src[i]
+    maxs = row.max
   end
+
+  return maxs
 end
 
 def total_even_pairs(src)
